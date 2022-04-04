@@ -43,9 +43,9 @@ def options():
 loop = True
 while loop:
     options()
-    choice = input("Please select Yes or No:")
+    choice = input("Please select Option 1 or 2:")
 
-    if choice ==1:
+    if choice =='1':
         amount = int(input("Enter the amount of deposit:"))
         i_r = int(input("Enter the amount of interest rate:"))
         duration = int(input("Enter the duration of the deposits in months:"))
@@ -82,11 +82,12 @@ while loop:
         for v in table:
             a,b,c,d,e,f = v
             print("{:<8} {:<10} {:<20} {:<25} {:<8}".format(a,b,c,d,e,f))
-    elif choice ==2:
+        print("Do you want to start again?")
+    elif choice =='2':
         print("Thank you for using our service!")
         loop = False
     else:
-        print("Invalid Option. Please select Yes or No.")
+        print("Invalid Option. Please select Option 1 or 2.")
 
 
 
