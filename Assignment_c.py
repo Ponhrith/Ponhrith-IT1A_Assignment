@@ -45,10 +45,10 @@ elif duration == d5:
     table.append([4, 100.00, 400.00, 4.06, 10.10, 410.10])
     table.append([5, 100.00, 500.00, 5.10, 15.20, 515.20])
 
-print("{:<8} {:<10} {:<20} {:<25} {:<8}".format('Month', 'Deposit', 'Total Deposits', 'This Month\'s Interest', 'Total-Intrest Earned', 'Total-Value To-Date'))
+print("{:<8} {:<10} {:<20} {:<25} {:<25} {:<8}".format('Month', 'Deposit', 'Total Deposits', 'This Month\'s Interest', 'Total-Intrest Earned', 'Total-Value To-Date'))
 for v in table:
     a,b,c,d,e,f = v
-    print("{:<8} {:<10} {:<20} {:<25} {:<8}".format(a,b,c,d,e,f))
+    print("{:<8} {:<10} {:<20} {:<25} {:<25} {:<8}".format(a,b,c,d,e,f))
 
 
 print("Do you want to start again?")
@@ -98,10 +98,10 @@ while loop:
             table.append([4, 100.00, 400.00, 4.06, 10.10, 410.10])
             table.append([5, 100.00, 500.00, 5.10, 15.20, 515.20])
 
-        print("{:<8} {:<10} {:<20} {:<25} {:<8}".format('Month', 'Deposit', 'Total Deposits', 'This Month\'s Interest', 'Total-Intrest Earned', 'Total-Value To-Date'))
+        print("{:<8} {:<10} {:<20} {:<25} {:<25} {:<8}".format('Month', 'Deposit', 'Total Deposits', 'This Month\'s Interest', 'Total-Intrest Earned', 'Total-Value To-Date'))
         for v in table:
             a,b,c,d,e,f = v
-            print("{:<8} {:<10} {:<20} {:<25} {:<8}".format(a,b,c,d,e,f))    
+            print("{:<8} {:<10} {:<20} {:<25} {:<25} {:<8}".format(a,b,c,d,e,f))    
 
         print("Do you want to start again?")
     elif choice =='2':
