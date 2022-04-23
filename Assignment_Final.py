@@ -15,5 +15,5 @@ duration = int(input("Enter the duration of the deposits in months:"))
     #for i in range(duration):
         #totalValueToDate.append(sum(compound[:i+1]))
 Total_Value_To_Date_01 = (amount*(1+i_r/1200)**duration)
-for x in range(duration):
+
     
