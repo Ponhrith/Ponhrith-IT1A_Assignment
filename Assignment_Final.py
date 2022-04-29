@@ -1,9 +1,10 @@
+#asking users to between 2 modes
 def options():
     print("How would you like to see your projection?")
-    print("1.The month I selected & the previous month.")
-    print("2.Just the month I selected.")
+    print("1.The month I selected & the previous month.") #this mode will print the table that shows the projection of the month that users selected and the previous month
+    print("2.Just the month I selected.")#this mode only print the table that show the projection of the month that users selected
 def option():
-    print("Do you want to start again?")
+    print("Do you want to start again?")#when the each mode end we will ask the users if they want to start again
     print("1. Yes")
     print("2. No")
 def initial():
@@ -24,7 +25,7 @@ def initial():
                     loop = False
                     break
                 else:
-                    print("Invalid Option. Please select Option 1 or 2.")
+                    print("Invalid Option. Please select Option 1 or 2.")#if users did not choose 1 or 2 then the option is invalid
         elif choices =='2':
             result2()
             while loop:
